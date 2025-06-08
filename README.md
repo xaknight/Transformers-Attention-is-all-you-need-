@@ -11,8 +11,6 @@ This repository contains a complete implementation of the Transformer architectu
 - Integrated **Grouped Multi-Query Attention (MQA)** and **Key-Value (KV) Caching**, inspired by the LLaMA architecture:
   - Reduced model size by 25%
   - Improved inference time by 20%
-- Implemented **FAISS** indexing for efficient similarity-based retrieval:
-  - Reduced search time by 40%
 - Switched from character-level to **subword tokenization** using Hugging Face's tokenizer:
   - Increased translation accuracy from 70–75% to 80–85%
 
@@ -22,7 +20,6 @@ This repository contains a complete implementation of the Transformer architectu
 - **Core Libraries**:
   - PyTorch – deep learning framework
   - NumPy – numerical computation
-  - FAISS – similarity search and indexing
   - Hugging Face Tokenizers – fast and flexible tokenization
 
 ## Performance Summary
