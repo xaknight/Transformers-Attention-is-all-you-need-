@@ -38,7 +38,6 @@ This repository contains a complete implementation of the Transformer architectu
 ├── data.py             # data loading logics
 ├── models/             # Transformer model and attention modules
 ├── paper/              # Hugging Face tokenizer code and config
-├── saved/              # FAISS indexing and search utilities
 ├── util/               # Training loop and logic
 ├── evaluate.py         # Evaluation and inference
 ├── conf.py             # Model and training configuration
